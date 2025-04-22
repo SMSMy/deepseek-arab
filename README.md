@@ -1,4 +1,10 @@
-# دعم اللغة العربية لـ Deepseek Chat 🚀
+<h1 align="center">دعم اللغة العربية لـ Deepseek Chat</h1>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/nvkq/deepseek-arab/main/deepseek-arab.png" alt="شعار الدعم العربي" width="300">
+  <br>
+  <sub>تم تطوير السكريبت لدعم تجربة المستخدم العربي</sub>
+</div>
 
 سكريبت مخصص لمستخدمي اللغة العربية لتحسين تجربة الدردشة على [Deepseek Chat](https://chat.deepseek.com/) مع دعم كامل للكتابة من اليمين لليسار (RTL) وتحسينات مرئية مُتقدمة.
 
@@ -12,17 +18,17 @@
 - **💻 الحفاظ على تنسيق الأكواد البرمجية**
 
 ## 📥 طريقة التثبيت
-1. **Install Tampermonkey Extension**:  
+1. **ثبت Tampermonkey Extension**:  
    [![Chrome](https://img.shields.io/badge/Chrome-Tampermonkey-blue?logo=google-chrome)](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)  
    [![Firefox](https://img.shields.io/badge/Firefox-Tampermonkey-orange?logo=firefox)](https://addons.mozilla.org/firefox/addon/tampermonkey/)
 
-2. **Install Script**:  
+2. **ثبت السكريبت**:  
    [![Install](https://img.shields.io/badge/INSTALL_SCRIPT-SUCCESS-brightgreen)](https://greasyfork.org/ar/scripts/533637-deepseek-arabic-support)
 
 3. **Refresh Page** on [Deepseek Chat](https://chat.deepseek.com/)
 
 ## 📸 لقطات الشاشة
-Before Installation | After Installation
+قبل التثبيت | بعد التثبيت
 ---|---
 ![Before Screenshot](https://raw.githubusercontent.com/nvkq/deepseek-arab/main/screenshots/before.png) | ![After Screenshot](https://raw.githubusercontent.com/nvkq/deepseek-arab/main/screenshots/after.png)
 
@@ -39,13 +45,13 @@ body {
 }
 ```
 
-## 📊 Technical Details
+## 📊 التفاصيل الفنية
 | Category        | Details                          |
 |-----------------|----------------------------------|
-| Version         | ![Version](https://img.shields.io/badge/version-1.2.0-blue) |
-| Installs        | ![Installs](https://img.shields.io/greasyfork/dt/533637?label=installs) |
-| Compatibility   | Tampermonkey, Violentmonkey      |
-| Last Updated    | ![Last Commit](https://img.shields.io/github/last-commit/nvkq/deepseek-arab) |
+| الإصدار         | ![Version](https://img.shields.io/badge/version-1.2.0-blue) |
+| التثبيتات]        | ![Installs](https://img.shields.io/greasyfork/dt/533637?label=installs) |
+| التوافق   | Tampermonkey, Violentmonkey      |
+| اخر تحديث    | ![Last Commit](https://img.shields.io/github/last-commit/nvkq/deepseek-arab) |
 
 ## 🌍 Supported Platforms
 ![Chrome](https://img.shields.io/badge/Google_Chrome-4285F4?logo=google-chrome&logoColor=white)
@@ -67,20 +73,21 @@ body {
 
 ---
 
-## 💡 دعم المشروع
-- ⭐ Star the repository on [GitHub](https://github.com/nvkq/deepseek-arab)
-- 🐞 Report issues [here](https://github.com/nvkq/deepseek-arab/issues)
-- ✨ Suggest improvements [here](https://github.com/nvkq/deepseek-arab/discussions)
+## 💡 دعم الفني
+- ⭐ قم بتقييم المشروع على [GitHub](https://github.com/nvkq/deepseek-arab)
+- 🐞 الإبلاغ عن الأخطاء [هنا](https://github.com/nvkq/deepseek-arab/issues)
+- ✨ اقتراح تحسينات [هنا](https://github.com/nvkq/deepseek-arab/discussions)
+
 
 ---
 
 ## 🔧 البنية التقنية
 ```mermaid
 graph TD
-  A[User] --> B{Install Script}
-  B --> C[Apply CSS Modifications]
-  C --> D[Load Arabic Fonts]
-  D --> E[Enhanced Experience]
+  A[المستخدم] --> B{تثبيت السكريبت}
+  B --> C[تطبيق التعديلات]
+  C --> D[تحميل الخطوط]
+  D --> E[تجربة محسنة]
 ```
 
 ## 🛠️ Roadmap
