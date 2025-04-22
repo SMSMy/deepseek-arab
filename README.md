@@ -73,7 +73,7 @@ body {
 
 ---
 
-## 💡 دعم الفني
+## 💡 الدعم
 - ⭐ قم بتقييم المشروع على [GitHub](https://github.com/nvkq/deepseek-arab)
 - 🐞 الإبلاغ عن الأخطاء [هنا](https://github.com/nvkq/deepseek-arab/issues)
 - ✨ اقتراح تحسينات [هنا](https://github.com/nvkq/deepseek-arab/discussions)
