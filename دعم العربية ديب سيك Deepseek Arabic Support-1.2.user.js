@@ -1,18 +1,14 @@
 // ==UserScript==
-// @name       دعم العربية ديب سيك  Deepseek Arabic Support
+// @name         Deepseek Arabic Support
 // @name:ar      دعم العربية لـ Deepseek
 // @namespace    https://github.com/nvkq
 // @version      1.2
-// @description  Comprehensive RTL support and Arabic typography enhancements for Deepseek Chat
-// @description:ar  دعم متكامل للغة العربية وتحسينات تنسيق النصوص
+// @description  دعم متكامل للغة العربية مع تحسين التنسيق
 // @author       smsm
 // @match        https://chat.deepseek.com/*
-// @icon         https://chat.deepseek.com/favicon.ico
+// @icon         https://raw.githubusercontent.com/nvkq/deepseek-arab/main/deepseek-arab.png
 // @grant        GM_addStyle
 // @license      GPL-3.0
-// @licenseURL   https://www.gnu.org/licenses/gpl-3.0.en.html
-// @updateURL    https://greasyfork.org/scripts/533637/code/Deepseek%20Arabic%20Support.user.js
-// @supportURL   https://github.com/YOUR_PROFILE/issues
 // ==/UserScript==
 
 (function() {
@@ -61,4 +57,4 @@
     fontLink.rel = 'stylesheet';
     document.head.appendChild(fontLink);
 
-})(); // <-- 
+})(); // <-- هنا أقواس الإغلاق الصحيحة (واحدة فقط)
