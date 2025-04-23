@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>سياسة الخصوصية - دعم العربية لـ Deepseek</title>
+    <title>سياسة الخصوصية - Deepseek Arabic Support</title>
     <style>
         body {
             margin: 0;
@@ -13,26 +13,39 @@
             color: #333;
         }
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: auto;
-            text-align: center;
             background: #fff;
             padding: 30px;
             border-radius: 10px;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
             line-height: 1.6;
         }
-        h1 {
+        .row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
             margin-bottom: 20px;
+        }
+        .col-ar {
+            text-align: right;
+            direction: rtl;
+        }
+        .col-en {
+            text-align: left;
+            direction: ltr;
+        }
+        h1 {
+            margin-bottom: 30px;
             font-size: 2em;
         }
         h2 {
-            margin-top: 30px;
+            margin-top: 20px;
             margin-bottom: 10px;
             font-size: 1.5em;
         }
         p, ul {
-            margin: 0 0 20px 0;
+            margin: 0;
             padding: 0;
         }
         ul {
@@ -48,32 +61,41 @@
             font-style: italic;
         }
         .effective-date {
-            margin-top: 30px;
             font-size: 0.9em;
             color: #666;
+            text-align: center;
+            margin-top: 30px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>سياسة الخصوصية</h1>
+        <div class="row">
+            <div class="col-ar"><h1>سياسة الخصوصية</h1></div>
+            <div class="col-en"><h1>Privacy Policy</h1></div>
+        </div>
         
-        <h2>1. جمع البيانات:</h2>
-        <p>لا يجمع هذا الامتداد أي بيانات شخصية أو معلومات استخدام من المستخدمين.</p>
+        <div class="row">
+            <div class="col-ar"><h2>1. جمع البيانات:</h2><p>لا يجمع هذا الامتداد أي بيانات شخصية أو معلومات استخدام من المستخدمين.</p></div>
+            <div class="col-en"><h2>1. Data Collection:</h2><p>This extension does not collect any personal data or usage information from users.</p></div>
+        </div>
         
-        <h2>2. التخزين المحلي:</h2>
-        <p>جميع العمليات تتم داخل المتصفح دون أي نقل خارجي للبيانات.</p>
+        <div class="row">
+            <div class="col-ar"><h2>2. التخزين المحلي:</h2><p>جميع العمليات تتم داخل المتصفح دون أي نقل خارجي للبيانات.</p></div>
+            <div class="col-en"><h2>2. Local Storage:</h2><p>All operations occur within the browser without any external data transfer.</p></div>
+        </div>
         
-        <h2>3. الأذونات المطلوبة:</h2>
-        <ul>
-            <li>الوصول إلى <strong>chat.deepseek.com</strong> فقط لتطبيق التنسيقات</li>
-            <li>تحميل الخطوط المحلية (<em>web_accessible_resources</em>)</li>
-        </ul>
+        <div class="row">
+            <div class="col-ar"><h2>3. الأذونات المطلوبة:</h2><ul><li>الوصول إلى <strong>chat.deepseek.com</strong> فقط لتطبيق التنسيقات</li><li>تحميل الخطوط المحلية (<em>web_accessible_resources</em>)</li></ul></div>
+            <div class="col-en"><h2>3. Permissions Required:</h2><ul><li>Access to <strong>chat.deepseek.com</strong> solely for applying formatting</li><li>Loading local fonts (<em>web_accessible_resources</em>)</li></ul></div>
+        </div>
         
-        <h2>4. التحديثات:</h2>
-        <p>أي تغييرات في السياسة سيتم نشرها على هذه الصفحة.</p>
+        <div class="row">
+            <div class="col-ar"><h2>4. التحديثات:</h2><p>أي تغييرات في السياسة سيتم نشرها على هذه الصفحة.</p></div>
+            <div class="col-en"><h2>4. Updates:</h2><p>Any policy changes will be posted on this page.</p></div>
+        </div>
         
-        <p class="effective-date">تاريخ النفاذ: [2025/04/22]</p>
+        <p class="effective-date">تاريخ النفاذ: [2025/04/22] • Effective Date: [2025/04/22]</p>
     </div>
 </body>
 </html>
