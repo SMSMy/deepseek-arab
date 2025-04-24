@@ -8,6 +8,12 @@
 
 سكريبت مخصص لمستخدمي اللغة العربية لتحسين تجربة الدردشة على [Deepseek Chat](https://chat.deepseek.com/) مع دعم كامل للكتابة من اليمين لليسار (RTL) وتحسينات مرئية مُتقدمة.
 
+✅**مشروع مفتوح المصدر**✅
+
+✨**لا إعلانات، لا مخاطر، فقط ثقة ومحبة حقيقية**✨
+
+بإمكانك نسخ المشروع والإستفادة منه كما تشاء *fork*❤️
+
 ![After Installation Screenshot](https://raw.githubusercontent.com/nvkq/deepseek-arab/main/screenshots/after.png)
 
 ## ✨ المميزات الرئيسية
