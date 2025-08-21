@@ -1,0 +1,20 @@
+{
+  "id": "*", 
+  "key": "1234",
+  "allowOffline": true
+}
+
+
+{
+  "id": "*", 
+  "key": "1234",
+  "expiresAt": "2095-08-21",
+  "allowOffline": true
+}
+
+{
+  "id": "87b04231dfdc6e88", 
+  "key": "1234",
+  "expiresAt": "2095-08-21",
+  "allowOffline": true
+}
