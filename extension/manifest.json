@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Deepseek Arabic Support",
+  "description": "دعم متكامل للغة العربية في Deepseek مع تحسين التنسيق.",
+  "version": "1.3",
+  "icons": {
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://chat.deepseek.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["fonts/*"],
+      "matches": ["https://chat.deepseek.com/*"]
+    }
+  ],
+  "permissions": [
+    "https://chat.deepseek.com/*"
+  ]
+}
